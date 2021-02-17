@@ -26,13 +26,13 @@ import React from 'react';
 import { Icon } from '@nghinv/react-native-icons';
 
 export default function Example() {
-	return (
-		<Icon 
-			size={36}
-			name='photo'
-			color='tomato'
-			type='MaterialIcons'
-		/>
-	);
+  return (
+    <Icon
+      size={36}
+      name='photo'
+      color='tomato'
+      type='MaterialIcons'
+    />
+  );
 }
 ```
