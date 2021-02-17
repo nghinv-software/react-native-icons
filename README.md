@@ -22,17 +22,17 @@ npm install @nghinv/react-native-icons
 # How to use
 
 ```javascript
-	import React from 'react';
-	import { Icon } from '@nghinv/react-native-icons';
+import React from 'react';
+import { Icon } from '@nghinv/react-native-icons';
 
-	export default function Example() {
-		return (
-			<Icon 
-				size={36}
-				name='photo'
-				color='tomato'
-				type='MaterialIcons'
-			/>
-		);
-	}
+export default function Example() {
+	return (
+		<Icon 
+			size={36}
+			name='photo'
+			color='tomato'
+			type='MaterialIcons'
+		/>
+	);
+}
 ```
