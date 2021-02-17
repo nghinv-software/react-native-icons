@@ -1,0 +1,35 @@
+{
+  "name": "@nghinv/react-native-icons",
+  "version": "1.0.0",
+  "description": "A custom vector icons component",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-icons",
+    "icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nghi-NV/react-native-icons.git"
+  },
+  "author": "nghinv@lumi.biz",
+  "types": "react-native-icons.d.ts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nghi-NV/react-native-icons/issues"
+  },
+  "homepage": "https://github.com/Nghi-NV/react-native-icons#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "react-native-vector-icons": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
