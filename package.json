@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A custom vector icons component",
   "main": "lib/index.js",
   "scripts": {
@@ -22,10 +22,12 @@
     "url": "https://github.com/nghinv-software/react-native-icons/issues"
   },
   "homepage": "https://github.com/nghinv-software/react-native-icons#readme",
+  "dependencies": {
+    "react-native-vector-icons": "*"
+  },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*",
-    "react-native-vector-icons": "*"
+    "react-native": "*"
   },
   "devDependencies": {},
   "publishConfig": {
