@@ -86,12 +86,13 @@ declare module '@nghinv/react-native-icons' {
 
   type IconTypes = AntDesignType | EntypoType | EvilIconsType | FeatherType | FontAwesomeType | FontAwesome5Type | FontAwesome5ProType | FontistoProType | FoundationType | IoniconsType | MaterialCommunityIconsType | MaterialIconsType | OcticonsType | SimpleLineIconsType | ZocialType;
 
-  export interface IconProps {
+  interface IconProps {
     size?: number;
     color?: string;
     style?: ViewStyle;
   }
 
+  export type IconPropsType = IconProps & IconTypes;
 
-  export function Icon(props: IconProps & IconTypes): JSX.Element;
+  export function Icon(props: IconPropsType): JSX.Element;
 }
