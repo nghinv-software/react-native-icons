@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-icons",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A custom vector icons component",
   "main": "lib/index.js",
   "scripts": {
